@@ -96,7 +96,7 @@ CRAFT:
 - Follow one unit through the chain at least once: trace a single concrete thing from its origin to where it ends up, so the viewer sees a physical journey, not an abstraction.
 - One vivid everyday analogy per technical concept, as planned in the outline; never leave an abstraction unexplained. Render at least one key quantity as a physical object.
 - Honest-skeptic move at least once: slow down and name the fine print directly. State the three strongest counterarguments, then weigh them in one synthesis sentence.
-- The callback word returns at the climax, tied to the thesis that the restriction became the catalyst.
+- The callback word returns at the climax, tied to the thesis that the restriction became the catalyst. EXECUTE the technique, never name it: the words "callback word", "the hook", "the reveal", "the thesis", "the analogy", "from the opening" must NEVER appear in the spoken script. If the callback word was not actually planted in the hook, plant it there; do not announce that a word is a callback.
 - Rhythm: alternate very short punchy fragments with longer explanatory sentences. Numbers always in contrast. Sentences end on a turn.
 - Each paragraph ends on tension, rotating through an unanswered question, a suspended claim, an ironic contrast, a quiet telling detail, or a shift in scale, never the same type twice in a row. No restatements.
 
@@ -117,18 +117,19 @@ TTS OUTPUT RULES (checked before output):
 - Spell symbols as words ("percent", "and"). Numbers under ten as words; years as numerals. One main idea per sentence.
 - NO abbreviations, acronyms, or letter clusters a voice engine would mangle. In order:
   - Has a spoken expansion, so write full words: "floating point operations" not "FLOPS", "radio frequency" not "RF", "gallium nitride" not "GaN", "machine learning operations" not "MLOps", "the Securities and Exchange Commission" not "SEC", "artificial intelligence" not "AI".
-  - Said letter by letter, so write spaced lowercase letters or rephrase to avoid it: "g p u" not "GPU", "c e o" not "CEO", or "the deep learning library" instead of "cuDNN". Never write the plain-language replacement AND the original token together (NOT "the deep learning library cuDNN") — pick the spoken form only.
+  - Said letter by letter, so write spaced lowercase letters or rephrase to avoid it: "g p u" not "GPU", "c e o" not "CEO". Never write the plain-language replacement AND the original token together (NOT "the deep learning library cuDNN") — pick the spoken form only.
+  - Mixed-case tokens that hide an uppercase cluster mangle too: "cuDNN" reads as "cu D N N", "cuBLAS" as "cu B L A S". Replace them with plain language: "the deep learning library", "the linear algebra library", "the core math libraries". Do NOT list raw library names.
   - Version or generation codes spoken out: "five G" not "5G", "four K" not "4K", "three nanometer" not "3nm".
   - Pronounceable brand names stay as written (CUDA, CANN, PyTorch, Ascend, Nvidia); model numbers spoken digit-style: "the H one hundred", "Ascend nine ten B".
   - Full company and country names, not tickers or initials: "the United States" not "US".
-  - When unsure, rephrase so the token disappears. After writing, scan once for any remaining cluster of two or more uppercase letters and fix each.
+  - When unsure, rephrase so the token disappears. After writing, scan once for any remaining cluster of two or more uppercase letters, INCLUDING clusters hidden inside a mixed-case word (cuDNN, cuBLAS, NVLink), and fix each.
 
 FINAL CHECKLIST — confirm every line before output, fix any that fail:
 1. No fabricated number, source, or quote; uncertain claims hedged.
 2. No abbreviation, acronym, symbol, em dash, parenthesis, or semicolon remains.
 3. The one protagonist runs through opening, middle, and close.
 4. At least two to three first-person authorial opinions are present.
-5. Three nested reveals, plus a steelman (three points and a synthesis), plus the callback word at the climax.
+5. Three nested reveals, plus a steelman (three points and a synthesis), plus the callback word at the climax. The callback word is actually planted in the hook, and the script NEVER names a technique out loud (no "callback word", "the hook", "the reveal", "from the opening").
 6. Hook and closing line are original wording, not copied from this prompt's examples.
 7. Length: about 7500 characters, never over 8500. Count it. If over, cut announcement-transitions and restatements until under the ceiling before output.
 8. No transition that only announces the next section; every core idea stated at most three times.
