@@ -136,3 +136,35 @@ FINAL CHECKLIST — confirm every line before output, fix any that fail:
 
 Respond directly with the script for THIS outline, even if sparse — infer reasonable specifics rather than asking or deferring. Do NOT build a tool, app, generator, or UI. Do NOT describe what you will do. Output only the script, no preamble.
 ```
+
+---
+
+## channel_profile
+
+Paste into `channels.json[channel_id].channel_profile`. Injected as `{profile}` into the stock-footage Claude prompts (`queries_for_blocks` and `rewrite_query`) so generated Pexels queries match this channel's look.
+
+```
+Genre: tech-geopolitics explainers about China's breakthroughs in semiconductors and computing, framed as a direct challenge to a named Western technology giant. Narrator is a first-person analyst and honest skeptic following the engineering and strategy beneath the headlines. Tone: awe and dread, cold precision, geopolitical weight. Confident and declarative, never hyped. Pacing is deliberate; visuals should feel high-tech and cinematic, controlled rather than frantic.
+
+IMPORTANT CONTEXT FOR STOCK SEARCH:
+The narration names specific companies, products, people, fabrication plants, and chips. Pexels holds NONE of these literally and what returns will be wrong. NEVER search for brand names, product names, named individuals, named factories or campuses, or country flags as stand-ins for claims. Translate every named subject into generic, timeless high-tech and industrial b-roll that Pexels actually has: a chip becomes a circuit-board macro, a fab becomes an anonymous clean room, a software platform becomes flowing data on screens, a trade restriction becomes a cargo port.
+
+Visual aesthetic preferences:
+- Cinematic, precise, moody-tech. Cool palette: deep blue, teal, steel gray, black, with amber or red accent glow. Dramatic and clean, never cheerful or corporate-bright.
+- Semiconductor and hardware core (the backbone): macro shots of circuit boards, microchips, silicon wafers, motherboards, processor sockets, soldered components, gold traces, blinking indicator lights, fiber-optic strands.
+- Compute and data centers: dark server aisles lit blue, racks of machines, dense cabling, network switches, cooling systems, humming infrastructure.
+- Manufacturing and industry: anonymous figures in full clean-room coveralls, robotic arms, automated assembly, precision machinery, wafer handling, sparks of fine tooling.
+- Abstract digital: scrolling code on screens, flowing data, network graphs, glowing nodes, particle and grid visualizations for software and computing concepts.
+- Geopolitics and trade (generic, non-identifiable): container ports, cargo ships, shipping cranes, highways of light, modern skylines in silhouette at dusk, satellite or earth-from-orbit views.
+- Texture macro shots: etched silicon, copper traces, cooling fins, glass fiber, polished metal tooling, slow rack focus and shallow depth of field.
+- Camera energy: slow push-ins, drifts over circuitry, controlled tilts, static held frames on machinery. Weight and authority, never upbeat or frantic motion.
+
+Avoid:
+- Brand logos, readable product names, identifiable company campuses, named devices. Symbolic and generic only.
+- Faces, smiling models, posed corporate stock people, handshake and boardroom cliches. Human presence as anonymous hands, silhouettes, or coverall figures only.
+- Children or anyone who appears under 18 in any context — absolute rule.
+- Bright, saturated, cheerful lifestyle or advertising footage. Party, fitness, vacation, and social-media aesthetics.
+- Hacker-in-a-hoodie tropes, falling green matrix code, fake holographic interface gimmicks, and other cheesy tech cliches.
+- Any military, weapons, or surveillance framing — keep it commercial chips and industrial strategy.
+- Fast cuts, drone-hype reels, glitchy or meme-energy motion that breaks the analytical, cinematic mood.
+```
