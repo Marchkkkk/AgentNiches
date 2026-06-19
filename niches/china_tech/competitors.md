@@ -164,3 +164,94 @@ you will…". Переможна формула конкурента поруш�
 → При авторингу (Mode A) роблю нішеве виключення: дозволяю roadmap-обіцянку
 («By the end you'll understand X, Y, Z»), парадокс-hook та аналогії-ядро.
 Еталон стилю = Eastern Engine.
+
+---
+
+# ЗБАГАЧЕННЯ З ПОВНИХ СКРИПТІВ (9 SRT, накопичення поверх вище)
+Оператор залив повні транскрипти. Нижче — деталі рівня речення/числа/епіграми,
+яких не було в попередніх (узагальнених) розборах. Патерни, не контент.
+
+## SinoShift — повні скрипти (vid1/2/3)
+
+### vid1 (Mate 60 / Cloud Matrix vs Nvidia) — повний
+- HOOK-механіка точно: «In 2023, a team of engineers sat staring at a smartphone
+  they had just taken apart. And they could not explain what they were looking
+  at.» → сцена-загадка в 3-й особі (не імператив!) + «On paper, it was
+  impossible. In their hands, it was running.» (контраст-пара).
+- ПЕРЕВИЗНАЧЕННЯ як рушій: «This was not the breakthrough. This was the warning
+  shot.» — підпис каналу: знецінити очевидне, підняти ставку.
+- Числовий контраст-молот: «1/3 as powerful… 1/3. Line them up one against one,
+  and it isn't even a contest.» (повтор числа фрагментом) → потім перемога
+  системою: 384 vs 72 chips, 300 vs 180 petaflops, 49 vs 14 TB.
+- Аналогія-ядро: «They could not build a stronger horse, so they harnessed five
+  weaker ones and built something that pulls harder than the thoroughbred.»
+- «spare tire» лист HiSilicon наступного дня після бану 2019 → «The ban did not
+  catch Huawei off guard. Huawei had been waiting for it.»
+- Епіграма-закриття: «The blockade was meant to be a cage. Instead, it became a
+  forge. And the thing it hammered into shape is no longer something anyone in
+  Washington can switch off.»
+- Roadmap-обіцянка ЯВНА: «By the end of this video, you will understand how a
+  sanctioned, written-off company climbed back to a $123 billion year.»
+
+### vid2 (Mate 80 / HarmonyOS Next) — повний
+- HOOK = ВЛАСНІСТЬ-РЕЄСТР: «The phone in your hand right now probably runs on
+  American silicon, an American operating system, an American app store, and
+  American cloud services.» → анафора «American…» 4х, тоді контр-реєстр Huawei.
+- СТРУКТУРА = доказ-через-перелік суверенного стека: «Chip design, HiSilicon.
+  Chip fabrication, SMIC. OS kernel, Hongmeng. OS, Harmony OS. Compiler, Ark.
+  Development environment, DevEco Studio. Programming language, ArkTS. App Store,
+  App Gallery. Cloud and identity services, Huawei Mobile Services.» — стакато-
+  перелік як риторична зброя (кожен шар = одне речення-фрагмент).
+- Прогрес-таблиця квартал-за-кварталом: «10,000 → 20,000 → 300,000 → 350,000
+  apps». Ескалація числом у часі.
+- Контраст-перемога: «Huawei, 46.7 million units. Apple, 46.2 million units.»
+- Теза «leverage більше не працює»: «There is nothing left to cut off… Apple lost
+  because the rules of the game changed underneath them, and the company that
+  changed the rules is in Shenzhen.»
+- «Once a country has built one complete sovereign technology stack, the second
+  is faster. The third faster still.» — тріадна ескалація-прогноз.
+
+### vid3 (Atlas 350 / Ascend / DeepSeek) — за розбором
+- «jet engine after confiscating every machine shop», HBL 1.0 власна пам'ять,
+  1.56 petaflops / 2.87x H20, DeepSeek V4 (1.6T params, zero Nvidia),
+  «parallel AI civilization», «two stacks, two futures».
+
+## Eastern Engine ⭐ — повні скрипти (vid1/2/3)
+- vid1 Silicon-28/CNNC: «nuclear flip-flopping», «feather + invisible fans»,
+  «solid-state vacuum», ~11 qubits caveat, «ingredient, not a finished meal»,
+  «a choke point engineered around». Тема = ізотопно-чистий кремній для кубітів.
+- vid2 Greenwald limit / EAST artificial sun: «broke it by 65%»,
+  plasma-wall self-organization, «a locked door — you just turn the handle»,
+  net-energy caveat, джерело Science Advances, рефрейм через ITER.
+- vid3 SMIC 5nm-class / Kirin 9030 N+3: «fine pen vs fat marker» (DUV),
+  «paint the wall four times» (SAQP/multi-patterning), yield caveat,
+  епіграма «impossible is a wall, expensive is a to-do list».
+- ПІДТВЕРДЖЕНО підписи: парадокс-hook, 3 пронумеровані caveats, «hold this word»
+  callback, аналогія-ядро на кожну абстракцію, агресивний CTA на коменти+дзвіночок.
+
+## Katherine Johnson — повні скрипти (vid1/2/3), ~20хв long-form
+- vid1: «300 engineers», EUV як проблема КООРДИНАЦІЇ (не лише машина),
+  арка «monopoly → wall → tax», попередження Peter Wennink (ASML),
+  «turn compute power into manufacturing precision», прогноз паралельних екосистем.
+- vid2: «47 engineers», переманювання тайванського таланту, «industrial memory» /
+  tacit knowledge, тяга Шеньчженю, «Taiwan 20 years ago», «slowing ≠ stopping».
+- vid3: «80%» зсув закупівель на mature-node, «industrial oxygen»,
+  National IC Fund (138B / 200B yuan), «good enough», «weaponizing industrial
+  floors», аналогія «block the river → water spreads sideways».
+- ПІДТВЕРДЖЕНО підписи: «both extremes wrong», «remember the number X» callback,
+  розмовні вставки («darkly funny», «I lean in between»), застереження вбудовані,
+  close «If you enjoyed this one, stick around».
+
+## НОВІ КРОС-ПАТЕРНИ (з повних скриптів, для де-фінгерпринту)
+1. HOOK у 3-й особі/реєстрі ВЖЕ існує в ніші (SinoShift vid1 сцена-загадка,
+   vid2 реєстр-власність) — це чистіша альтернатива забороненому імперативу
+   «Take out your phone». ПЕРЕВАГА: можна тримати general_rules і не програвати.
+2. «This was not X. This was Y.» (знецінити→підняти) = спільний моторчик ВСІХ
+   трьох шкіл. ОТЖЕ це fingerprint — при де-фінгерпринті розподілити: лишити
+   одному каналу, іншим заборонити (див. channels.md DE-FINGERPRINT MATRIX).
+3. Епіграма-форж/cage/wall→map/door→handle — метафора «бар'єр обернувся на X»
+   повторюється в КОЖНОГО конкурента. Високий ризик схожості наших 6 каналів.
+   → кожному каналу окрема родина метафор (forge / map / oxygen / handle / toll
+   booth уже зайняті конкурентами — нашим потрібні СВІЖІ).
+4. Числовий контраст-фрагмент (повтор числа окремим реченням: «1/3.» «Eight.»)
+   — підпис SinoShift; решті каналів дати інший спосіб подавати число.
