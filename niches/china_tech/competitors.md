@@ -255,3 +255,147 @@ you will…". Переможна формула конкурента поруш�
    booth уже зайняті конкурентами — нашим потрібні СВІЖІ).
 4. Числовий контраст-фрагмент (повтор числа окремим реченням: «1/3.» «Eight.»)
    — підпис SinoShift; решті каналів дати інший спосіб подавати число.
+
+────────────────────────────────────────────────────────────────────────────
+EASTERN ENGINE — RETENTION DEEP-DIVE (5 свіжих скриптів, 2026-06-25)
+────────────────────────────────────────────────────────────────────────────
+Оператор залив 5 нових Eastern Engine скриптів і поставив задачу: розібрати,
+ЯК він тримає утримання, які фішки → щоб НАШІ відео подобались і його аудиторії,
+АЛЕ були кращі. Eastern Engine = референс №1, бо ютуб просуває саме його.
+Скрипти: (1) Photonic Chips Without DUV — PLAS/Pronano nanoimprint, 90% cost;
+(2) 7nm vs Intel 18A — SMIC N+3 Kirin 9030, 32.5nm vs 36nm M0; (3) 128TB→256TB —
+Longsys WM8500 SPU compression; (4) AI Glass Sold Out Until 2027 — optical fiber,
+Corning/Nvidia 36x; (5) No-GPU Supercomputer #1 — Lian Shin 2.198 vs 1.809 exaflops.
+
+## РУШІЙ УТРИМАННЯ #1 — «дефляційний двигун довіри»
+Кожні 60-90 секунд Eastern Engine НАВМИСНО знецінює щойно подану сенсацію, щоб
+підняти ставку наступного шару. Це не послаблює, а ТРИМАЄ — глядач лишається, бо
+автор сам ставить заперечення, яке глядач щойно подумав. Формули-зшивки:
+- «But the most surprising part is not simply that China moved into first place.
+  It is HOW Lian Shin got there.» (знецінити очевидне → перенаправити цікавість)
+- «That does not automatically make it the best. It does not mean GPUs are
+  obsolete. And one benchmark can never describe every workload. BUT this result
+  is official.» (анафора-заперечення «That does not… It does not…» → тоді «BUT»)
+- «here's where a hype video would stop, and where an honest one keeps going».
+ВИСНОВОК: утримання тут — НЕ клікбейт-обіцянка, а постійне само-заперечення, яке
+читається як чесність. Глядач не йде, бо боїться пропустити «справжній» шар.
+
+## 8 РЕКУРЕНТНИХ ФІШОК (підтверджені у ≥3 з 5 скриптів)
+1. ПАРАДОКС-HOOK без розгону: «Here's a sentence that should not make sense.»
+2. ДЕФЛЯЦІЯ-ПЕРЕНАПРАВЛЕННЯ: «the real story is narrower / it is not X, it is Y».
+3. ТРИ (іноді ЧОТИРИ) пронумеровані caveats блоком: «First… Second… Third…».
+   ВАРІАЦІЯ (скрипт 5): «There are FOUR major caveats» — кількість плаває 3-4,
+   це не жорстка трійка. Виглядає як журналістика, а не пропаганда.
+4. АНАЛОГІЯ-ЯДРО на кожну тех-абстракцію, рівно одна влучна: «move a mountain →
+   45 000 organized teams», «two different vehicles: freight engine vs hybrid»,
+   «fine pen vs fat marker» (DUV), «paint the wall four times» (multi-patterning).
+5. «HOLD THIS WORD» callback: садить термін рано, активує в кульмінації.
+6. ЧИСЛО В КОНТРАСТІ-ПАРІ: «2.198 vs 1.809 exaflops», «32.5nm vs 36nm»,
+   «52.07 vs 60.94 gigaflops/watt» — НІКОЛИ голе число, завжди X проти Y.
+7. БАЛАНС-ДОКАЗ (анти-пропаганда): показує і де Китай ВИГРАВ (HPL, HPCG), і де
+   ПРОГРАВ (HPL-MXP AI, ефективність). Це головна зброя довіри проти SinoShift.
+8. «MY TAKE» — явний авторський блок наприкінці: «My take is that the ranking is
+   important, but the architectural divergence is even more important.» Власна
+   теза, не реферат → прямо живить general_rules §3 AUTHORIAL VOICE.
+
+## СТРУКТУРА «ТРИ ВКЛАДЕНІ ВИКРИТТЯ» (підтверджено у всіх 5)
+очевидне (China #1 / 7nm / 256TB) → «це не справжня історія» (дефляція) →
+глибший технічний шар (interconnect Ling Chi / M0 pitch / SPU compression) →
+найбільший рефрейм (стратегічний: «another road to exascale», «first to volume»).
+
+## FINGERPRINT-ЗАКРИТТЯ (формула в усіх 5 — НАШ КАНАЛ МУСИТЬ УНИКАТИ)
+«China did not [win] by [copying X]. It [took the crown] by proving [there was
+another road to Y].» → шаблон «did NOT achieve-by-obvious-means. It achieved-by-
+proving-Z.» Це підпис каналу. Решітка: заперечення + «It … by proving …».
+SinoShift має свій (forge/cage), Eastern Engine — цей. Нашим каналам потрібні
+СВОЇ родини закриттів (див. channels.md DE-FINGERPRINT — ritual word per channel).
+
+## CTA-RETENTION (однаковий у всіх 5)
+A-чи-B питання в коменти + підписка: «Should Lian Shin be considered #1 because…
+OR does El Capitan's efficiency make it more capable? Let me know in the comments
+and subscribe to Eastern Engine.» → дає глядачу ДВІ сторони для суперечки =
+паливо коментів = ютуб-сигнал. Тема свідомо «going to divide people».
+
+## ЯК МИ ЙОГО ПЕРЕБИВАЄМО (match-and-beat для авторингу наших каналів)
+| Вісь | Eastern Engine робить | Наша краща версія |
+|---|---|---|
+| Дефляція | щоразу «the real story is narrower» | тримати двигун, АЛЕ міняти зшивку — не повторювати ту саму фразу двічі в одному відео |
+| Аналогії | сильні, але рясні | ліміт per-channel (quantum_rivals max 2); кожна СВІЖА, не з банку конкурента (forge/map/oxygen/vehicle вже зайняті) |
+| Закриття | один шаблон «did not X, did Z» на всі відео | per-channel ritual word + жива кінцівка, НЕ повторюваний шаблон-решітка |
+| Хедж | 3-4 caveats блоком наприкінці | гостра 3-точкова хедж-секція, вплетена раніше, не звалена в кінець |
+| Авторська думка | «my take» лише у фіналі | авторський голос РАНІШЕ і частіше (judgement у тілі, не лише coda) |
+| Bloat | повтори тез, довгі пояснення benchmark | різати — наш target ≤12000 chars; щільніше за нього |
+| Числа | контраст-пари (сильно) | те саме, АЛЕ ≤5 hard numbers зі словесним хеджем (false-precision правило) |
+
+────────────────────────────────────────────────────────────────────────────
+EASTERN ENGINE — ВІДКРИТТЯ «ДВА ФОРМАТИ» (2026-06-27)
+────────────────────────────────────────────────────────────────────────────
+Оператор залив 2 нові скрипти: (1) «Qualcomm Is Bringing HBM-Free AI Chips to
+China — Using Phone Memory» і (2) «China Just Banned Nvidia — And Replaced It
+With Its Own Chips». Порівняння довело: Eastern Engine НЕ один шаблон, а РОДИНА
+форматів зі спільним ДНК «чесного брокера». Два чіткі режими:
+
+## ФОРМАТ 1 — ДРАМАТИЧНИЙ РЕВЕРС («China Just Banned Nvidia»)
+Це режим SinoShift-стилю, який EE теж уміє. Маркери:
+- HOOK = імператив-сцена: «Imagine the most valuable company in the history of
+  the world being told it's no longer welcome…» + поетичний реверс «for three
+  straight years the story ran the opposite direction».
+- ЯВНА АКТ-структура наголошена вголос: «Act one belonged entirely to America.»
+  / «Then came the twist.» — театральні маркери актів.
+- АНАЛОГІЯ-РЕФРЕН повторюється (не одна): «jailer unlocked the cell, the prisoner
+  said no thanks», «tearing off the bandage before the wound is healed»,
+  «pull the leash too hard and the animal learns to live without one»,
+  «selling soda where Coca-Cola was ordered out» — народні метафори гронами.
+- «THREE FORCES» рушій: «Three forces drive this, stacking on top of one
+  another. The first… The second… The third…» (нумерований мотор причин).
+- A/B розділовий CTA: «Did China just free itself or shoot itself in the foot?»
+- Тон: геополіт-трилер, awe+dread, декларативний.
+
+## ФОРМАТ 2 — ГРУНТОВНИЙ ТЕХ-ПОЯСНЮВАЧ («Qualcomm HBM-Free»)
+Це режим Katherine-Johnson-стилю, лекційний. Маркери (відмінні від Ф1):
+- HOOK = тиха технічна аксіома, не драма: «Every AI accelerator has the same
+  hidden weakness, memory.» + driving question «is this truly an HBM replacement
+  or is Qualcomm finding a clever way to enter China's AI market…».
+- РОЗДІЛОВІ ЗАГОЛОВКИ ВГОЛОС (унікально для Ф2, головний fingerprint цього
+  режиму): «Why AI chips are becoming memory machines», «What high bandwidth
+  compute actually does», «Why phone memory is not as ridiculous as it sounds»,
+  «The 133 TB per second claim», «Why China matters», «The software problem»,
+  «The honest catch», «My take». Це lecture-navigation вголос.
+- ОДНА центральна аналогія, НЕ рефрен: warehouse зі складом + маленькі робітники
+  в проходах = near-memory computing. Один образ тримається весь час.
+- НАДВАЖКЕ хеджування: «Qualcomm's own projections, not independent testing»,
+  «independent tests will be necessary», «again, these are Qualcomm estimates»,
+  «the company has not yet placed production hardware into the hands of
+  independent reviewers». Хедж вплетений СКРІЗЬ, не звалений у кінець.
+- НУМЕРОВАНИЙ «honest catch»: «There are four major reasons to remain cautious.
+  First… Second… Third… Fourth…» + окремо terminology-застереження («HBM free
+  does not mean memory is no longer important»).
+- «MY TAKE» блок як теза: «My take is that Qualcomm's most interesting decision
+  is not using cheaper memory. It is refusing to accept that every byte must
+  travel to one central processor.»
+- A/B CTA + «subscribe to Eastern Engine»; closing line «It is betting that the
+  next AI breakthrough will happen inside the memory itself.»
+
+## ЧОМУ ЦЕ ВАЖЛИВО ДЛЯ НАШОГО АВТОРИНГУ
+1. EE свідомо ЧЕРГУЄ формати → не приїдається, той самий канал покриває і
+   драму-реверс, і спокійний пояснювач. Наша мережа з 9 каналів вже робить це
+   РОЗПОДІЛОМ між каналами (кожен — один двигун), але корисно знати, що один
+   канал теж може мати ≥2 регістри.
+2. DE-FINGERPRINT: «розділові заголовки вголос» (spoken chapter headers) — це
+   тепер ПІДПИС EE Формату 2. НАШІ КАНАЛИ МАЮТЬ УНИКАТИ вимовлених назв розділів
+   («Why X matters», «The honest catch»). Наша навігація має бути в ритуалі/
+   спліт-таймі/раундах, а не в озвучених заголовках.
+3. ПІДТВЕРДЖЕНО спільне ДНК обох форматів (не порушувати, бо це і є «чесний
+   брокер», який ютуб любить): нумеровані caveats, «my take» блок, A/B CTA,
+   аутро «subscribe to Eastern Engine». Ми беремо МАШИНЕРІЮ (формат), не текст.
+
+## НОВА ТЕМАТИЧНА ХВИЛЯ (для idea-sourcing, verify-at-script-time)
+- HBM / memory-wall / near-memory compute (HBC) / LPDDR «телефонна память» в
+  дата-центрі — гаряча тема. Перетин з нашими ідеями: ideas_jade_protocol
+  (CXMT memory wave) і Veyron IDEA C (HBM як honest brake).
+- НОВИЙ КУТ named-гіганта: Qualcomm = ЗАХІДНИЙ гігант, що ВХОДИТЬ у Китай під
+  експорт-контролем (а не «Китай б'є Захід»). Свіжий ракурс — західний гравець
+  як challenger проти Nvidia-архітектури + проти Huawei Ascend/Cambricon вдома.
+- Microsoft/Meta як credibility-якорі (Dragonfly C100, AI 250); CUDA software
+  moat як головний бар'єр — придатний honest-brake матеріал для будь-якого
+  AI-чіп відео.

@@ -23,7 +23,7 @@ VOICE AND THESIS:
 - Recurring thesis: a restriction meant to contain China instead redirected it down a road no one else was exploring. The wall did not stop them; it became a map. Tie this idea freshly to THIS story.
 
 TASK:
-The IDEA is appended at the END of this message as "Idea: ...". Build a structured outline for a spoken script of about 10500 characters including spaces, roughly 1680 words, and never more than 12000. Stay lean inside that budget: every block must carry a new fact, turn, or reveal, and you must cut any block that does not. Use the extra length for depth and concrete evidence, never for padding or restatement. Non-narrative explainer: escalating claim then evidence then reframe, not a plot with characters.
+The IDEA is appended at the END of this message as "Idea: ...". Build a structured outline for a spoken script of about 7500 characters including spaces, roughly 1200 words, and never more than 8500. Tighter is better than longer: the best-performing videos in this niche run lean. Plan only as many blocks as the idea needs, and cut any block that does not carry a new fact, turn, or reveal. Non-narrative explainer: escalating claim then evidence then reframe, not a plot with characters.
 
 FACT INTEGRITY (overrides the pull to sound authoritative):
 - Never invent a statistic, date, quote, product name, or source attribution. A fabricated citation is worse than none.
@@ -67,7 +67,7 @@ Respond directly with the outline for THIS idea, even if sparse — infer reason
 ## prompts.story
 
 ```
-You are writing a full YouTube script in English from the OUTLINE appended at the END of this message as "Outline: ...". One continuous spoken script of about 10500 characters including spaces, roughly 1680 words, and NEVER more than 12000. For text to speech, with no structural labels. Non-narrative explainer: no plot or characters; drive it with escalating claims, evidence, and reframes. Use the length for depth and concrete evidence, never for padding: every sentence must still earn its place, so when in doubt, cut.
+You are writing a full YouTube script in English from the OUTLINE appended at the END of this message as "Outline: ...". One continuous spoken script of about 7500 characters including spaces, roughly 1200 words, and NEVER more than 8500. For text to speech, with no structural labels. Non-narrative explainer: no plot or characters; drive it with escalating claims, evidence, and reframes. Lean beats long: a tight script outperforms a padded one, so when in doubt, cut.
 
 NO FILLER: every sentence delivers a fact, a contrast or irony, or an analogy that makes an abstraction concrete. If a sentence does none of these, cut it.
 - Every transition must carry a turn, a new fact, or a callback. NEVER write a sentence that only announces the next section ("here is where it gets concrete", "the deepest layer of the story is this", "now let me explain", "but here is the reveal"). State the next idea outright; do not point at it.
@@ -97,7 +97,7 @@ CRAFT:
 - Follow one unit through the chain at least once: trace a single concrete thing from its origin to where it ends up, so the viewer sees a physical journey, not an abstraction.
 - One vivid everyday analogy per technical concept, as planned in the outline; never leave an abstraction unexplained. Render at least one key quantity as a physical object.
 - Honest-skeptic move at least once: slow down and name the fine print directly. State the three strongest counterarguments, then weigh them in one synthesis sentence.
-- The callback word returns at the climax, tied to the thesis that the restriction became the catalyst. EXECUTE the technique, never name it: the words "callback word", "the hook", "the reveal", "the thesis", "the analogy", "from the opening" must NEVER appear in the spoken script. If the callback word was not actually planted in the hook, plant it there; do not announce that a word is a callback.
+- The callback word returns at the climax, tied to the thesis that the restriction became the catalyst.
 - Rhythm: alternate very short punchy fragments with longer explanatory sentences. Numbers always in contrast. Sentences end on a turn.
 - Each paragraph ends on tension, rotating through an unanswered question, a suspended claim, an ironic contrast, a quiet telling detail, or a shift in scale, never the same type twice in a row. No restatements.
 
@@ -118,21 +118,20 @@ TTS OUTPUT RULES (checked before output):
 - Spell symbols as words ("percent", "and"). Numbers under ten as words; years as numerals. One main idea per sentence.
 - NO abbreviations, acronyms, or letter clusters a voice engine would mangle. In order:
   - Has a spoken expansion, so write full words: "floating point operations" not "FLOPS", "radio frequency" not "RF", "gallium nitride" not "GaN", "machine learning operations" not "MLOps", "the Securities and Exchange Commission" not "SEC", "artificial intelligence" not "AI".
-  - Said letter by letter, so write spaced lowercase letters or rephrase to avoid it: "g p u" not "GPU", "c e o" not "CEO". Never write the plain-language replacement AND the original token together (NOT "the deep learning library cuDNN") — pick the spoken form only.
-  - Mixed-case tokens that hide an uppercase cluster mangle too: "cuDNN" reads as "cu D N N", "cuBLAS" as "cu B L A S". Replace them with plain language: "the deep learning library", "the linear algebra library", "the core math libraries". Do NOT list raw library names.
+  - Said letter by letter, so write spaced lowercase letters or rephrase to avoid it: "g p u" not "GPU", "c e o" not "CEO", or "the deep learning library" instead of "cuDNN". Never write the plain-language replacement AND the original token together (NOT "the deep learning library cuDNN") — pick the spoken form only.
   - Version or generation codes spoken out: "five G" not "5G", "four K" not "4K", "three nanometer" not "3nm".
   - Pronounceable brand names stay as written (CUDA, CANN, PyTorch, Ascend, Nvidia); model numbers spoken digit-style: "the H one hundred", "Ascend nine ten B".
   - Full company and country names, not tickers or initials: "the United States" not "US".
-  - When unsure, rephrase so the token disappears. After writing, scan once for any remaining cluster of two or more uppercase letters, INCLUDING clusters hidden inside a mixed-case word (cuDNN, cuBLAS, NVLink), and fix each.
+  - When unsure, rephrase so the token disappears. After writing, scan once for any remaining cluster of two or more uppercase letters and fix each.
 
 FINAL CHECKLIST — confirm every line before output, fix any that fail:
 1. No fabricated number, source, or quote; uncertain claims hedged.
 2. No abbreviation, acronym, symbol, em dash, parenthesis, or semicolon remains.
 3. The one protagonist runs through opening, middle, and close.
 4. At least two to three first-person authorial opinions are present.
-5. Three nested reveals, plus a steelman (three points and a synthesis), plus the callback word at the climax. The callback word is actually planted in the hook, and the script NEVER names a technique out loud (no "callback word", "the hook", "the reveal", "from the opening").
+5. Three nested reveals, plus a steelman (three points and a synthesis), plus the callback word at the climax.
 6. Hook and closing line are original wording, not copied from this prompt's examples.
-7. Length: about 10500 characters, never over 12000. Count it. If over, cut announcement-transitions and restatements until under the ceiling before output.
+7. Length: about 7500 characters, never over 8500. Count it. If over, cut announcement-transitions and restatements until under the ceiling before output.
 8. No transition that only announces the next section; every core idea stated at most three times.
 9. Content safety clean; no structural labels.
 
@@ -143,5 +142,38 @@ Respond directly with the script for THIS outline, even if sparse — infer reas
 
 ## channel_profile
 
-Same as ../prompts.md channel_profile (the niche-baseline cinematic moody-tech look).
-lotus_terminal uses the unmodified niche profile.
+```
+HARD AVOID (reject any clip showing these, no matter how well it otherwise fits):
+- Human faces, smiling models, posed corporate stock people, handshakes, boardrooms. Allowed human presence: anonymous hands, silhouettes, or full clean-room coverall figures only.
+- Gaming / RGB-lit PCs, neon party, nightclub or DJ aesthetics, lifestyle / fitness / vacation / advertising footage, bright cheerful or saturated social-media looks.
+- Children or anyone under 18, in any context — absolute rule.
+- Brand logos, readable product names, identifiable company campuses, named devices, country flags.
+- Hacker-in-a-hoodie, falling green matrix code, fake holographic interface gimmicks, kaleidoscopes, abstract light streaks with no subject, and other cheesy tech cliches.
+- Military, weapons, or surveillance framing.
+- Fast cuts, drone-hype reels, glitchy or meme-energy motion.
+When a clip is borderline against this list, treat it as a reject, not filler.
+
+Genre: tech-geopolitics explainers about China's breakthroughs in semiconductors and computing, framed as a direct challenge to a named Western technology giant. Narrator is a first-person analyst and honest skeptic following the engineering and strategy beneath the headlines. Tone: awe and dread, cold precision, geopolitical weight. Confident and declarative, never hyped. Pacing is deliberate; visuals should feel high-tech and cinematic, controlled rather than frantic.
+
+IMPORTANT CONTEXT FOR STOCK SEARCH:
+The narration names specific companies, products, people, fabrication plants, and chips. Pexels holds NONE of these literally and what returns will be wrong. NEVER search for brand names, product names, named individuals, named factories or campuses, or country flags as stand-ins for claims. Translate every named subject into generic, timeless high-tech and industrial b-roll that Pexels actually has: a chip becomes a circuit-board macro, a fab becomes an anonymous clean room, a software platform becomes flowing data on screens, a trade restriction becomes a cargo port.
+
+Visual aesthetic preferences:
+- Cinematic, precise, moody-tech. Cool palette: deep blue, teal, steel gray, black, with amber or red accent glow. Dramatic and clean, never cheerful or corporate-bright.
+- Semiconductor and hardware core (the backbone): macro shots of circuit boards, microchips, silicon wafers, motherboards, processor sockets, soldered components, gold traces, blinking indicator lights, fiber-optic strands.
+- Compute and data centers: dark server aisles lit blue, racks of machines, dense cabling, network switches, cooling systems, humming infrastructure.
+- Manufacturing and industry: anonymous figures in full clean-room coveralls, robotic arms, automated assembly, precision machinery, wafer handling, sparks of fine tooling.
+- Abstract digital: scrolling code on screens, flowing data, network graphs, glowing nodes, particle and grid visualizations for software and computing concepts.
+- Geopolitics and trade (generic, non-identifiable): container ports, cargo ships, shipping cranes, highways of light, modern skylines in silhouette at dusk, satellite or earth-from-orbit views.
+- Texture macro shots: etched silicon, copper traces, cooling fins, glass fiber, polished metal tooling, slow rack focus and shallow depth of field.
+- Camera energy: slow push-ins, drifts over circuitry, controlled tilts, static held frames on machinery. Weight and authority, never upbeat or frantic motion.
+
+Avoid:
+- Brand logos, readable product names, identifiable company campuses, named devices. Symbolic and generic only.
+- Faces, smiling models, posed corporate stock people, handshake and boardroom cliches. Human presence as anonymous hands, silhouettes, or coverall figures only.
+- Children or anyone who appears under 18 in any context — absolute rule.
+- Bright, saturated, cheerful lifestyle or advertising footage. Party, fitness, vacation, and social-media aesthetics.
+- Hacker-in-a-hoodie tropes, falling green matrix code, fake holographic interface gimmicks, and other cheesy tech cliches.
+- Any military, weapons, or surveillance framing — keep it commercial chips and industrial strategy.
+- Fast cuts, drone-hype reels, glitchy or meme-energy motion that breaks the analytical, cinematic mood.
+```
