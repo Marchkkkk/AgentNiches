@@ -4,6 +4,59 @@
 
 ---
 
+## Сесія 2026-06-27/28 — Veyron (9-й) + AetherEast (10-й) авторовано + EE «два формати» + опис для lotus
+
+### Що зроблено (усе запушено: commit `4df0f5c`, Marchkkkk/AgentNiches, main)
+1. **Veyron** (`prompts/veyron.md`) — авторовано всі 3 блоки. Движок **THE RACE in legs**. Довжина піднята до **~14000 знаків / ~2300 слів / макс 15000 / ~15 хв** (новий стандарт довжини, більший за lotus 7500 та jade 8000 — оператор попросив «хватало на 15 хв»).
+2. **ideas_veyron.md** — 3 ідеї (Intel / ASML / Nvidia), усі RACE-SHAPED. Idea A (Intel node race) = пріоритет.
+3. **AetherEast** (`prompts/aether_east.md`) — авторовано всі 3 блоки. Движок **MAP OF THE INVISIBLE NETWORK**. Та сама довжина 14k/15хв. Файл ідей ШЕ НЕ створено (наступний крок, якщо треба).
+4. **competitors.md** — дописано блок «EASTERN ENGINE — ВІДКРИТТЯ ДВА ФОРМАТИ (2026-06-27)»: EE має РОДИНУ форматів, не один.
+5. **Опис для відео lotus_terminal** «Nvidia Won the Chip. China Bought the POWER PLANT» — видано в чат (повний + короткий варіант). НЕ збережено у файл (оператор не просив зберегти; теми описів поки живуть у чаті).
+
+### Veyron — паспорт (de-fingerprint)
+- **Движок:** контест ДВОХ ГОДИННИКІВ (named-гігант vs Китай), бігається по LEGS; кожен leg = вимір (design/manufacturing/materials/software/scale); кожен leg закривається на **SPLIT-TIME** (head-to-head читання часу/темпу: час Заходу, тоді Китаю, в одному граматичному фреймі); lead стискається leg-to-leg; один leg перевертає тренд (honest brake).
+- **Наратор:** first-person race-caller / momentum analyst. Present tense, clipped, propulsive. Емоція = ШВИДКІСТЬ (не цікавість jade, не awe+dread lotus).
+- **Ритуал:** SPLIT-TIME readout наприкінці кожного leg.
+- **Лексикон ВОЛОДІЄ:** track-and-clock — the lead, the gap, gaining a lap, the split, who reaches the line first, years vs months.
+- **Honest brake:** leg де годинник Китаю лише ЗДАЄТЬСЯ швидким (yield, frontier node, EUV, ecosystem lock-in).
+- **Закриття:** FINISH-LINE FORECAST (12-міс call + forward-looking comment-bait + subscribe).
+
+### AetherEast — паспорт (de-fingerprint)
+- **Движок:** КАРТА прихованої мережі залежностей, малюється наживо. Трасуємо лінії node-to-node поки не впремося в **CHOKEPOINT** (один матеріал/інструмент/софт, контрольований однією компанією/країною); на кожному вузлі читаємо чи є **BYPASS**.
+- **Наратор:** first-person картограф мережі / систем-мапер. Спокійний, методичний, ПРОСТОРОВИЙ (мислить зв'язками/структурою, не швидкістю — це головна різниця з Veyron).
+- **Ритуал:** TRACE THE LINE — кожен сегмент закінчується NODE READOUT (назва вузла + статус bypass: немає / будується / вже обійдено) в одному фреймі.
+- **Лексикон ВОЛОДІЄ:** node, line, chokepoint, junction, valve, web, single point of failure, bypass, dead-end, the far end of the line.
+- **Topic tilt (УНІКАЛЬНИЙ шар):** МАТЕРІАЛИ + ІНСТРУМЕНТИ + СОФТ під чіпом — літографія (ASML), photoresist, гази, підкладки, deposition/etch (Applied Materials, Lam, Tokyo Electron), EDA (Synopsys, Cadence), Shin-Etsu. Named-гіганти тут = toolmakers, не chipmakers. Це окремий тематичний шар від решти каналів.
+- **Honest brake:** THE DEAD-END — вузол, який Китай реально не може обійти (EUV, специфічний photoresist, EDA-софт).
+- **Закриття:** MAP-COMPLETE reading (що обійдено / що лишилось + call + питання + subscribe).
+- **КРИТИЧНІ банни для AetherEast:** Veyron split-time/race-мова; lotus «wall became a map» (бо AetherEast юзає БУКВАЛЬНІ карти — фігуральна метафора-бар'єр заборонена); silk «upstream» (каже «the far end of the line»); + НОВЕ: **spoken chapter headers** (див. нижче).
+
+### EE «ДВА ФОРМАТИ» — головне відкриття сесії (для competitors.md + de-fingerprint)
+Оператор залив 2 EE-скрипти (Qualcomm HBM-Free + China Banned Nvidia). Висновок: EE = РОДИНА форматів зі спільним «honest-broker» ДНК:
+- **Формат 1 (драматичний реверс):** імператив-hook, АКТ-структура вголос («Act one belonged to America… then the twist»), народні метафори гронами, «three forces», A/B divisive CTA. Стиль SinoShift.
+- **Формат 2 (грунтовний пояснювач):** тиха тех-аксіома-hook, **РОЗДІЛОВІ ЗАГОЛОВКИ ВГОЛОС** («Why China matters», «The honest catch», «My take») = головний fingerprint цього режиму, ОДНА центральна аналогія (не рефрен), надважке хеджування скрізь, нумерований «four caveats», «My take» блок. Стиль Katherine Johnson.
+- **Спільне ДНК обох (МАШИНЕРІЯ, яку ютуб любить — беремо формат, не текст):** нумеровані caveats, «my take», A/B CTA, аутро «subscribe to Eastern Engine».
+- **НОВИЙ БАН для всіх наших каналів:** spoken chapter headers (озвучені назви розділів). Наша навігація — тільки в ритуалі (split-time / trace-the-line / раунди), ніколи вголос названі секції. Додано в banned-блоки Veyron + AetherEast.
+
+### Нова тематична хвиля (idea-sourcing, verify-at-script-time)
+- HBM / memory-wall / near-memory compute (HBC) / LPDDR «телефонна память» в дата-центрі — гаряча. Перетин: jade Idea A (CXMT) + Veyron Idea C (HBM honest brake).
+- НОВИЙ КУТ named-гіганта: **Qualcomm = ЗАХІДНИЙ гігант, що ВХОДИТЬ у Китай** під експорт-контролем (а не «Китай б'є Захід»). Свіжий ракурс.
+- Microsoft/Meta = credibility-якорі; CUDA software moat = універсальний honest-brake матеріал.
+
+### Стандарт довжини ЗМІНИВСЯ
+Veyron + AetherEast = **14000 знаків / ~15 хв** (попередні канали: lotus ~7500, jade ~8000, решта ~10500-12000). Якщо оператор захоче єдиний стандарт — це відкрите питання, поки що нові канали довші.
+
+### Notion
+Оператор спитав про підключення Notion. Стан: конекторів НЕ встановлено, в реєстрі Notion нема. Підключає оператор САМ (`claude mcp add --transport http notion https://mcp.notion.com/mcp` + OAuth). Я НЕ можу додати конектор. Відкрите питання оператору: нащо саме Notion (дублювати описи/ідеї VS вести весь стан замість файлів) — застеріг, що розмазувати стан між Notion і git шкодить принципу «repo = єдине джерело правди».
+
+### Відкриті кроки
+1. (Якщо треба) `ideas_aether_east.md` — 3 ідеї (кандидати: ASML/EUV chokepoint, EDA Synopsys/Cadence, photoresist/гази Shin-Etsu/JSR).
+2. Музичні промпти для Veyron (offered) + AetherEast — не зроблено.
+3. Оператор САМ деплоїть нові промпти в прод `channels.json`.
+4. Лишилось каналів без авторингу: перевірити `channels.md` (Veyron + AetherEast тепер готові; рахунок каналів = 10 з паспортами).
+
+---
+
 ## Сесія 2026-06-26 (друга) — jade_protocol (8-й канал, авторовано) + lotus апдейт
 
 ### Що зроблено
