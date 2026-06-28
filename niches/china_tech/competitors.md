@@ -399,3 +399,59 @@ With Its Own Chips». Порівняння довело: Eastern Engine НЕ о�
 - Microsoft/Meta як credibility-якорі (Dragonfly C100, AI 250); CUDA software
   moat як головний бар'єр — придатний honest-brake матеріал для будь-якого
   AI-чіп відео.
+
+────────────────────────────────────────────────────────────────────────────
+EASTERN ENGINE — НОВИЙ СКРИПТ «Apple Wants China's RAM» (2026-06-28)
+────────────────────────────────────────────────────────────────────────────
+Оператор залив 1 новий EE-скрипт: «Apple Wants China's RAM After a 98% Price
+Surge — MacBooks Already Cost More». Тема = пам'ятна криза (DRAM +98% Q1-2026),
+Apple лобіює Вашингтон за дозвіл купувати DRAM у CXMT (Pentagon-список,
+військові зв'язки). Розбір — патерни, не контент.
+
+## РЕЖИМ = ФОРМАТ 2 (грунтовний тех/бізнес-пояснювач), підтверджено
+- Чисті РОЗДІЛОВІ ЗАГОЛОВКИ ВГОЛОС (головний fingerprint Ф2, ~11 штук):
+  «Why Apple raised prices», «How AI created a memory shock», «Why CXMT suddenly
+  matters», «What Apple is reportedly asking for», «Apple's qualification
+  process», «Why Samsung, SK Hynix, and Micron should pay attention», «Why China
+  could benefit», «Could Chinese RAM lower MacBook prices?», «The political
+  problem», «The honest catch», «My take». → лекційна навігація вголос.
+  НАШІ КАНАЛИ ПРОДОВЖУЮТЬ УНИКАТИ цього (навігація в ритуалі/раундах/спліт-таймі).
+- HOOK = тиха теза-факт, не драма: «Apple has spent decades building one of the
+  strongest supply chains… But this time, even Apple could not absorb the
+  pressure.» (Ф2-шаблон «гіганта зігнуло» — спокійний, не awe+dread).
+
+## ПІДТВЕРДЖЕНІ ПІДПИСИ EE (без змін, працюють)
+- «THE HONEST CATCH» блок: явно розділяє headline від фактів —
+  «Apple reportedly wants clearance… has NOT confirmed a signed contract… 98%
+  refers to market pricing, not the exact cost of every chip Apple buys… iPhone
+  prices had NOT yet increased.» → знецінення власного заголовка = валюта довіри.
+- «MY TAKE» блок-теза наприкінці: «memory is becoming strategic… consumers buying
+  laptops are now paying for competition happening inside data centers.» (теза,
+  не реферат).
+- A/B CTA: «Should Apple be allowed to buy from CXMT if chips meet standards? OR
+  would the long-term strategic risk outweigh short-term cost?» + «subscribe to
+  Eastern Engine».
+- Епіграма-закриття: «Apple is not turning to Chinese memory out of curiosity. It
+  is considering it because a 98% price surge has made the old supply chain too
+  expensive to ignore.»
+- Дефляція-перенаправлення наскрізна: «The reported request does NOT mean a deal
+  signed… does NOT mean Chinese RAM is already inside MacBooks…» (анафора-
+  заперечення перед підняттям ставки).
+
+## НОВЕ ДЛЯ IDEA-SOURCING (verify-at-script-time)
+- НОВИЙ КУТ named-гіганта: APPLE як ПОКУПЕЦЬ, що ЗГИНАЄТЬСЯ під дефіцитом і
+  тягнеться ДО китайської пам'яті — інверсія звичного «Китай б'є Захід».
+  Західний гігант сам ВАЛІДУЄ китайського постачальника. Свіжий ракурс.
+- ПЕРЕТИН З НАШИМИ ІДЕЯМИ: прямо живить jade «China Is Outbuilding Samsung 5 to 1»
+  (CXMT як 4-й гравець, що рухає ринок) і memory-хвилю загалом. CXMT-якорі тут:
+  заснований 2016, 4-й найбільший DRAM-постачальник, Pentagon-список. Та сама
+  компанія, що в jade Idea A — теми резонують, але двигуни різні (EE = пояснювач
+  з озвученими заголовками; jade = загадка-питання 3× + reframe). Same-trend-
+  different-engine: можна осідлати ту саму memory-хвилю СВОЇМ двигуном.
+- ЧИСЛА-ЯКОРІ (re-verify): DRAM +98% Q1-2026; MacBook Neo $599→$699; iPad Air
+  128GB $599→$749; CXMT = 4-й DRAM. Обережно: «$512GB MacBook Air $1,999→$1,999»
+  і «$599→$699» — у транскрипті є OCR-помилки/суперечності в цифрах (напр.
+  однакові $1,999), тож НЕ цитувати дослівно без перевірки.
+- ТОН-НАГАДУВАННЯ: EE тримає memory-кризу як СПОЖИВЧУ історію (ціни на ноут у
+  крамниці) — заземлює абстракцію дата-центру в гаманець глядача. Корисний
+  прийом «data-center cost spreading to consumer» для honest-brake/ставок.
